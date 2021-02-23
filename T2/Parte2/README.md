@@ -12,23 +12,23 @@ As seções executaveis do programa calc1.exe são:
 o segundo retorna as sessões comuns e tambem separadamente as unicas de 2 executaveis, temos um exemplo de entrada e a saida:
 
 C:\Users\Victor\Desktop\CIENCIA DE DADOS SEGURANÇA>python T2p2b.py calc.exe mspaint.exe
-----------------------
+
 --                  --
 --  SESSÕES COMUNS  --
 --     DOS  EXE     --
 --                  --
-----------------------
+
          - .rdata
          - .pdata
          - .rsrc
          - .data
          - .reloc
          - .text
-----------------------
+
 --                  --
 --  SESSÕES UNICAS  --
 --     DOS  EXE     --
 --                  --
-----------------------
+
 mspaint.exe
          - .didat        

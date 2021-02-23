@@ -5,6 +5,7 @@ Escreva outro script em Python (ou .ipynb) que receba como entrada dois arquivos
 A Parte 2 é divida em dois scripts ao qual o primeiro retorna somente as sessões executaveis do programa abaixo temos um exemplo de entrada e a saida, o argumento de entrada pode ser um diretorio que no caso do exemplo se chama Exe ou pode ser um unico arquivo .exe:
 
 C:\Users\Victor\Desktop\CIENCIA DE DADOS SEGURANÇA>python T2p2.py Exe
+
 As seções executaveis do programa calc1.exe são:
         .text
         

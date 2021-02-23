@@ -17,7 +17,7 @@ for i in arquivos:
 	tree = ET.parse(i)
 	root = tree.getroot()
 	permissoes = []
-	print(i)
+#	print(i)
 	for android in root.iter('uses-permission'):
 		permissao = android.attrib["{http://schemas.android.com/apk/res/android}name"].split(".")[-1]
 		permissoes.append(permissao)
